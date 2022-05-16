@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUS SERIES</title>
+    <link  href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <input type="text" name="search" placeholder="Ingresar nombre de serie" id="search_serie">
+        <button id="search">Buscar</button>
+    </div>
+    <br>
+    <div>
+        <table id="tablaSeries">
+            <thead>
+                <th>&nbsp;</th>
+                <th>Nombre</th>
+                <th>Temporada</th>
+                <th>Temp. Vistas</th>
+            </thead>
+            <tbody id="contenido">
+            <tr>
+                <td><input type="radio" id="1"></td>
+                <td class="nombre">Peaky Blinders</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="2"></td>
+                <td class="nombre">Narcos</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="3"></td>
+                <td class="nombre">Stranger Things</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="4"></td>
+                <td class="nombre">House of Cards</td>
+                <td>6</td>
+                <td>0</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div>
+        <span> 
+            <button id="sumar">Sumar temporada</button>
+        </span>
+        <span>
+            <button id="restar">restar temporada</button>
+        </span>
+    </div>
+
+    <script src="main.js"></script> 
+</body>
+</html>
