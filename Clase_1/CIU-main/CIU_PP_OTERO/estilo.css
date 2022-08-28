@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/N646JO37GZAXDNCABGIMAI47UM.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+    flex-basis: auto;
+    width: auto;
+    height: auto;
+}
+
+
+table{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: medium;
+}
+
+th{
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+}
+
+input{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button{
+    border-radius: 5px;
+    font-size: large;
+}
+
+div{
+    margin: 20px;
+    border-radius: 5px;
+}
